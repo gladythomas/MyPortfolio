@@ -1,0 +1,45 @@
+/*  Google Font */
+.st-font {
+    font-family: 'Island Moments';
+    font-size: 90px;
+}
+.se-font{
+    font-family: 'Island Moments';
+    font-size: 38.5px;
+}
+
+html,body {
+    height: 100%;
+  
+}
+
+.container-fluid{
+  min-height: 100%;
+}
+
+/*.px-4{
+    height: 100%;
+}*/
+
+/*  Services Icon Colors */
+.i-color{
+   color: chartreuse;
+}
+.ss-color{
+    color: #FFFF00;
+}
+a.nav-link{
+    color: whitesmoke;
+}
+
+a.nav-link:hover{
+    color: red;
+    background-color: #e9cd79;
+
+}
+a.nav-link.active{
+    color:black;
+    background-color: #ffc107;
+    font-weight: bold;
+    
+}

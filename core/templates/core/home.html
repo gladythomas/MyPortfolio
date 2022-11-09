@@ -1,0 +1,43 @@
+{%extends 'core/base.html'%}
+{% load static  %}
+{% block content %}
+  <div class="mt-5 ">
+
+    <div class="mt-10 text-center" >
+  
+      <img src="{% static 'core/images/pic1.jpg'%}" alt="profilepic" class="img-thumbnail" width="250px" height="150px">
+    </div>
+   
+   <div class="mt-5 text-white mx-5 text-justify">
+    <h1 class="font-weight-bold st-font">Hello,</h1>
+     
+    <div class="px-4" style="line-height: 2rem;">
+        <p style="text-indent:100px">I am <b class="text-warning se-font">Glady Thomas</b> having 2 
+          years of experience in the field of development for global bussiness, I offer the technical expertise you are seeking for your web developer position.</p>
+        
+        <p>
+          Earning my bachelor degree from osmania university my passion for web development led to start my carier as an developer in Sunera technologies . I have involved in various types of project which offer financial services, support for educational services and hospitality management.
+          Although faced many problems in this field , my passion grew more stronger day by day and it helped me in taking more project as an second to the team lead.   </p>
+<!---
+        <p>
+          “A web developer designs, develops, enhances, tests and deploys web applications with an end goal of creating engaging and user-friendly site layout and function. A developer gathers and defines requirements, maintains websites, troubleshoots and fixes bugs, follows best practices and collaborates with other teams.”
+
+          “W3C stands for World Wide Consortium and it is an international community that focuses on developing and standardizing the web. As a web developer, enforcing these standards ensures that web content is accessible in all browsers to reach all audiences, as well as optimizes the user experience. For example, using W3C-compliant CSS and XML allows every website to function similarly, but also improve.
+         </p> -->
+       
+
+    </div>
+
+   </div>
+   <div class="text-center">
+
+    <a href="{% url 'contact' %}" class="btn btn-outline-warning my-3 mr-5 ">Hire Me</a>
+   <a href="{% url 'contact' %}" class="btn btn-outline-info my-3">Contact</a>
+
+   </div>
+   
+   
+
+  </div>
+{% endblock content %}
+
